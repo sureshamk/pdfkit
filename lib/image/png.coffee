@@ -1,5 +1,5 @@
 zlib = require 'zlib'
-PNG = require 'png-js'
+PNG = require 'pngjs'
 
 class PNGImage
   constructor: (data, @label) ->
